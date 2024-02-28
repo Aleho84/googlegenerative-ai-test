@@ -1,0 +1,46 @@
+{
+  "name": "googlegenerative-ai-test",
+  "version": "0.1.0",
+  "description": "googlegenerative-ai-test with gemini model",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "set NODE_ENV=prod&& node .",
+    "dev": "set NODE_ENV=dev&& nodemon --no-warnings .",
+    "test": "set NODE_ENV=dev&& nodemon --no-warnings ./src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlehoDev/googlegenerative-ai-test.git"
+  },
+  "keywords": [
+    "google",
+    "gemini",
+    "ia",    
+    "test"
+  ],
+  "author": {
+    "name": "Alejandro Abraham",
+    "email": "alejandro.r.abraham@gmail.com",
+    "url": "https://github.com/Aleho84"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlehoDev/google-bard-test/issues"
+  },
+  "homepage": "https://github.com/AlehoDev/google-bard-test#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "cli-spinners": "^2.9.2",
+    "dotenv": "^16.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules",
+      "*.json"
+    ]
+  }
+}

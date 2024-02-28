@@ -1,0 +1,15 @@
+TO DO:::
+
+cuando se activa el filtro de seguridad en las respuestas devuelve esto:
+
+DEBUG: GoogleGenerativeAIResponseError: [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY                                                                                                                  
+    at response.text (file:///D:/Repositorios/googlegenerative-ai-test/node_modules/@google/generative-ai/dist/index.mjs:265:23)
+    at Bot.chat (file:///D:/Repositorios/googlegenerative-ai-test/src/lib/bot.js:67:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async askBot (file:///D:/Repositorios/googlegenerative-ai-test/app.js:70:10) {
+  response: {
+    candidates: [ [Object] ],
+    promptFeedback: { safetyRatings: [Array] },
+    text: [Function (anonymous)]
+  }
+}
