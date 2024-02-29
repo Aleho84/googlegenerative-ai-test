@@ -55,6 +55,14 @@ const bot = async (msg) => {
     return text;
 }
 
+console.log('   Testing...');
 
-bot('cual es tu nombre?').then((message) => console.log(`Bot says: ${message}`));
-bot('quien es tu creador?').then((message) => console.log(`Bot says: ${message}`));
+bot('Hola! mi nombre es Alejandro')
+    .then((message) => {
+        console.log(`   --Success ✅`);
+        process.exit(0);
+    })
+    .catch((error) => {
+        console.log(`   --Fail ❌: ${error.message}`);
+        process.exit(1);
+    });

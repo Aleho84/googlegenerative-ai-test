@@ -7,7 +7,7 @@
   "scripts": {
     "start": "set NODE_ENV=prod&& node .",
     "dev": "set NODE_ENV=dev&& nodemon --no-warnings .",
-    "test": "set NODE_ENV=dev&& nodemon --no-warnings ./src/test/test.js"
+    "test": "set NODE_ENV=dev&& node --no-warnings ./src/test/test.js"
   },
   "repository": {
     "type": "git",
